@@ -2,6 +2,9 @@ import ee
 import numpy as np
 import scipy.special
 
+from ..water import water_common
+bboxes = water_common.bboxes
+
 from bokeh.layouts import gridplot
 from bokeh.plotting import figure, output_file, show
 
