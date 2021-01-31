@@ -14,8 +14,8 @@ jobs:
       - run: pip install black
       - run: black . --check
       - run: sudo python setup.py install
-      - run: echo $service_acct_json > "service_acct.json"
-      - run: test -f service_acct.json
+      - run: echo $service_acct_json > "SERVICE_ACCT.json"
+      - run: pwd
       - run: pytest .
 
 workflows:
