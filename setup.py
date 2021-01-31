@@ -12,7 +12,7 @@ setup(
         "earthengine-api==0.1.243",
         "folium>=0.11.0",
         "numpy==1.18.5",
-        "pandas==1.0.5",
+        "pandas==1.2.1",
         "pytest==5.4.3",
         "pytest-html==2.1.1",
         "pytest-datadir-ng==1.1.1",
