@@ -18,7 +18,7 @@ setup(
         "pytest-datadir-ng==1.1.1",
         "pytest-lazy-fixture==0.6.3",
         "scipy>=1.2.1",
-        "google-auth==2.0"
+        "google-auth==1.24.0"
     ],
     author="Eartshot Labs Contributors",
     author_email="jlmccreight@gmail.com",
