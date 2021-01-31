@@ -15,8 +15,8 @@ jobs:
       - run: black . --check
       - run: sudo python setup.py install
       - run: echo $service_acct_json > "SERVICE_ACCT.json"
-      - run: pwd
-      - run: pytest .
+      - run: pytest earthshot/tests/test_ee_api.py
+      - run: pytest . --ignore=earthshot/tests/test_ee_api.py
 
 workflows:
   main:
