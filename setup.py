@@ -11,7 +11,7 @@ setup(
         "bokeh==2.2.3",
         "earthengine-api==0.1.243",
         "folium>=0.11.0",
-        "numpy==1.18.5",
+        "numpy==1.20.0",
         "pandas==1.2.1",
         "pytest==5.4.3",
         "pytest-html==2.1.1",
