@@ -11,9 +11,8 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-      - run: pip install black
       - run: black . --check
-      - run: pip install .
+      - run: python setup.py install
       - run: echo Test
 
 workflows:
