@@ -11,12 +11,21 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-      - run: pip install black
-      - run: black . --check
-      - run: sudo python setup.py install
-      - run: echo $service_acct_json > "SERVICE_ACCT.json"
-      - run: pytest earthshot/tests/test_ee_api.py
-      - run: pytest . --ignore=earthshot/tests/test_ee_api.py
+      - run:
+          name: Ensure code is compliant with black
+          command: pip install black && black . --check
+      - run:
+          name: Install Earthshot package
+          command: sudo python setup.py install
+      - run:
+          name: Read GEE service account information
+          command: echo $service_acct_json > "SERVICE_ACCT.json"
+      - run:
+          name: Test connection to GEE API
+          command: pytest earthshot/tests/test_ee_api.py
+      - run:
+          name: Run full test suite
+          command: pytest . --ignore=earthshot/tests/test_ee_api.py
 
 workflows:
   main:
