@@ -11,6 +11,7 @@ setup(
         "bokeh==2.2.3",
         "earthengine-api==0.1.243",
         "folium>=0.11.0",
+        "google-auth==1.24.0",
         "numpy==1.20.0",
         "pandas==1.2.1",
         "pytest==5.4.3",
@@ -18,7 +19,6 @@ setup(
         "pytest-datadir-ng==1.1.1",
         "pytest-lazy-fixture==0.6.3",
         "scipy>=1.2.1",
-        "google-auth==1.24.0"
     ],
     author="Eartshot Labs Contributors",
     author_email="jlmccreight@gmail.com",

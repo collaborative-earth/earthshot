@@ -11,6 +11,7 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
+      - run: black . --check
       - run: sudo python setup.py install
       - run: echo Test
 
