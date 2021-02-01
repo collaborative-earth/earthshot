@@ -10,16 +10,6 @@ _ = output_notebook()
 
 
 def add_ee_layer(self, ee_image_object, vis_params, name):
-<<<<<<< HEAD
-    map_id_dict = ee.Image(ee_image_object).getMapId(vis_params)
-    folium.raster_layers.TileLayer(
-        tiles=map_id_dict["tile_fetcher"].url_format,
-        attr='Map Data &copy; <a href="https://earthengine.google.com/">Google Earth Engine</a>',
-        name=name,
-        overlay=True,
-        control=True,
-    ).add_to(self)
-=======
   """A method for displaying or layering Earth Engine image tiles to folium map.
   """
   map_id_dict = ee.Image(ee_image_object).getMapId(vis_params)
@@ -30,7 +20,6 @@ def add_ee_layer(self, ee_image_object, vis_params, name):
     overlay = True,
     control = True
   ).add_to(self)
->>>>>>> main
 
 
 # Add EE drawing method to folium.
