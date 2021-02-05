@@ -1,16 +1,32 @@
-.. Earthshot documentation master file, created by
-   sphinx-quickstart on Fri Feb  5 15:24:19 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+=========
+Earthshot
+=========
 
-Welcome to Earthshot's documentation!
-=====================================
+Earthshot is a central python package for projects at Eartshot Labs.
+
+
+User Guide
+----------
+
+The user guide explains how to install and use Earthshot.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+
+  user/installation
+  user/examples
 
 
+API Reference
+-------------
+
+If you are looking for information on a specific item, feel free to browse the
+API reference.
+
+.. toctree::
+  :maxdepth: 3
+
+  modules/earthshot
 
 Indices and tables
 ==================
