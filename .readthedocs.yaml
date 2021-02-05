@@ -1,8 +1,11 @@
+# Required
 version: 2
-python:
-  install:
-    - requirements: docs/requirements.txt
-    - method: pip
-      path: .
 sphinx:
-  builder: dirhtml
+   configuration: docs/conf.py
+formats:
+   - pdf
+   - epub
+python:
+   version: 3.7
+   install:
+   - requirements: docs/requirements.txt
