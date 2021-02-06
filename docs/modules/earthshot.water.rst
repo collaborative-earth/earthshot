@@ -1,27 +1,22 @@
-earthshot.water package
-=======================
+earthshot.water
+===============
 
-Submodules
-----------
 
-earthshot.water.water\_common module
-------------------------------------
+earthshot.water.water\_common
+-----------------------------
 
 .. automodule:: earthshot.water.water_common
    :members:
    :undoc-members:
    :show-inheritance:
 
-earthshot.water.water\_viz module
----------------------------------
+earthshot.water.water\_viz
+--------------------------
 
 .. automodule:: earthshot.water.water_viz
    :members:
    :undoc-members:
    :show-inheritance:
-
-Module contents
----------------
 
 .. automodule:: earthshot.water
    :members:

@@ -1,17 +1,12 @@
-earthshot package
-=================
+earthshot
+=========
 
-Subpackages
------------
 
 .. toctree::
    :maxdepth: 4
 
    earthshot.core
    earthshot.water
-
-Module contents
----------------
 
 .. automodule:: earthshot
    :members:

@@ -1,27 +1,22 @@
-earthshot.core package
-======================
+earthshot.core
+==============
 
-Submodules
-----------
 
-earthshot.core.mon\_stats module
---------------------------------
+earthshot.core.mon\_stats
+-------------------------
 
 .. automodule:: earthshot.core.mon_stats
    :members:
    :undoc-members:
    :show-inheritance:
 
-earthshot.core.normalize module
--------------------------------
+earthshot.core.normalize
+------------------------
 
 .. automodule:: earthshot.core.normalize
    :members:
    :undoc-members:
    :show-inheritance:
-
-Module contents
----------------
 
 .. automodule:: earthshot.core
    :members:
