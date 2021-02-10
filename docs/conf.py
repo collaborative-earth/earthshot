@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'Earthshot'
-copyright = '2021, Earthshot Contributors'
-author = 'Earthshot Contributors'
+copyright = '2021, Earthshot Labs Contributors'
+author = 'Earthshot Labs Contributors'
 
 
 # -- General configuration ---------------------------------------------------
