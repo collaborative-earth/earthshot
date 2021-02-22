@@ -1,6 +1,5 @@
 bokeh>=2.2.3
 coverage>=5.4.0
-coveralls>=3.0.0
 earthengine-api>=0.1.243
 folium>=0.11.0
 google-auth>=1.24.0
