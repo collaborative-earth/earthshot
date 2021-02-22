@@ -28,7 +28,7 @@ jobs:
           command: pytest . --ignore=earthshot/tests/test_ee_api.py --cov=earthshot
       - run:
           name: Report coverage
-          command: coveralls --verbose
+          command: pip install coveralls && coveralls --verbose
 
 workflows:
   main:
